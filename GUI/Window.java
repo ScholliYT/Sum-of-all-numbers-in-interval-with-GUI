@@ -23,8 +23,7 @@ public class Window extends JFrame implements ActionListener
         txtLowerInterval= new JLabel("lower interval [incl.]");
         txtLowerInterval.setSize(150, 20);
         txtLowerInterval.setLocation(10, 10);
-        this.add(txtLowerInterval
-    );
+        this.add(txtLowerInterval);
 
         txtUpperInterval = new JLabel("upper interval [incl.]");
         txtUpperInterval.setSize(150, 20);
@@ -60,7 +59,7 @@ public class Window extends JFrame implements ActionListener
     }
 
     public void sichtbarMachen() {
-        this.setVisible(true); 
+        this.setVisible(true);
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -73,7 +72,7 @@ public class Window extends JFrame implements ActionListener
                 txtOutput.setText("Wrong format!");
             }
         }
-    } 
+    }
 
     private int solve(int a, int b)
     {
@@ -91,7 +90,7 @@ public class Window extends JFrame implements ActionListener
         int result = 0;
         while (a <=b) {
             result+=a;
-            a++; 
+            a++;
         }
         return result;
     }

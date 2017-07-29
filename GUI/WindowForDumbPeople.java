@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Window extends JFrame
+public class WindowForDumbPeople extends JFrame
 {
     private JLabel txtLowerInterval;
     private JLabel txtUpperInterval;
@@ -11,7 +11,7 @@ public class Window extends JFrame
 
     private JButton btnStart;
 
-    public Window() {
+    public WindowForDumbPeople() {
         super("Sum of all numbers in interval");
         this.setSize(400, 300);
         this.setLocation(200, 200);
